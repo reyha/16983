@@ -331,24 +331,22 @@ hr {
   -moz-transition-property: -moz-transform;
   transition-property: transform;
 
-  $base: 2;
+  $base: 3;
   $exponent: 1;
   $limit: 11;
 
   // Colors for all 11 states, false = no special color
-  $special-colors: false false, // 2
-                   false false, // 4
-                   #f78e48 true, // 8
-                   #fc5e2e true, // 16
-                   #ff3333 true, // 32
-                   #ff0000 true, // 64
-                   false true, // 128
-                   false true, // 256
-                   false true, // 512
-                   false true, // 1024
-                   false true; // 2048
-
-  // Build tile colors
+  $special-colors: false false, // 3
+                   false false, // 9
+                   #f78e48 true, // 27
+                   #fc5e2e true, // 81
+                   #ff3333 true, // 243
+                   #ff0000 true, // 729
+                   false true, // 2178
+                   false true, // 6561
+                   false true, // 19683
+            
+	  // Build tile colors
   @while $exponent <= $limit {
     $power: pow($base, $exponent);
 
