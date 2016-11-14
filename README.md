@@ -11,5 +11,5 @@ The official app can also be found on the [Play Store](https://play.google.com/s
   <img src="/images/img1.png" alt="Screenshot"/>
 </p>
 
-That screenshot is fake, by the way. I never reached 2048 :smile:
+That screenshot is fake, by the way. I never reached 16983 :smile:
 
